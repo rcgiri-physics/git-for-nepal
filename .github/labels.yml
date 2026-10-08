@@ -1,0 +1,7 @@
+- {name: good-first-issue, color: 7057ff, description: Small and welcoming}
+- {name: student-friendly, color: 0e8a16, description: From a learner; review extra gently}
+- {name: needs-nepali-review, color: fbca04, description: Needs a native Nepali reviewer}
+- {name: needs-teacher-review, color: fbca04, description: Needs a teacher's approval}
+- {name: dataset-licence-check, color: d93f0b, description: Licence must be verified}
+- {name: cdc-alignment, color: 1d76db, description: Mapping to CDC units}
+- {name: translation, color: c5def5, description: Translation work}

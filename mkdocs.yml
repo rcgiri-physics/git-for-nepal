@@ -1,0 +1,39 @@
+site_name: Git for Nepal
+site_url: https://rcgiri-physics.github.io/git-for-nepal/
+repo_url: https://github.com/rcgiri-physics/git-for-nepal
+copyright: Content CC BY 4.0 — Ram Chandra Giri and contributors
+site_description: Open, offline-first Git curriculum for Nepali schools, Grades 8-12
+docs_dir: docs
+strict: false
+theme:
+  name: material
+  language: en
+  font: false          # no Google Fonts: works offline (see docs/assets/extra.css)
+  custom_dir: overrides
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+extra_css:
+  - assets/extra.css
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ne
+          name: नेपाली (ड्राफ्ट)
+          build: true
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list

@@ -1,0 +1,5 @@
+/* Offline-first: no web fonts. Devanagari-capable system fonts are listed so Nepali renders on lab PCs. */
+:root {
+  --md-text-font: "Noto Sans", "Noto Sans Devanagari", "Nirmala UI", "Mangal", "Segoe UI", system-ui, sans-serif;
+  --md-code-font: "Cascadia Mono", "Consolas", "DejaVu Sans Mono", monospace;
+}

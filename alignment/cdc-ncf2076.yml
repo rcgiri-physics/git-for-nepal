@@ -1,0 +1,52 @@
+# CDC alignment — PARTLY VERIFIED (2026-10-07).
+# Verified from: S12 (Grade 11-12 curriculum PDF) and S13 (Class 10 textbook table of contents); see research/sources.md.
+# NOT located: Grade 8 and Grade 9 computer syllabus/textbook text. Those grades stay "unverified".
+# CDC documents are (c) CDC, all rights reserved: we cite unit names only and never copy their text.
+framework: "NCF 2076 (secondary computer science). A revision is under way in 2026; re-map when the new framework appears."
+status: partly-verified
+grades:
+  8:
+    verified: false
+    cdc_unit: "not mapped: no Grade 8 computer syllabus located"
+    hooks: [file management, digital literacy, basic statistics]
+    modules: [g8-m01-final-final, g8-m02-snapshots, g8-m03-first-repo, g8-m04-history-diff, g8-m05-undo-restore, g8-m06-stats-commits, g8-m07-mini-project]
+  9:
+    verified: false
+    cdc_unit: "not mapped: no Grade 9 computer syllabus located"
+    note: "Python and MySQL are in the Grade 10 textbook (S13), NOT confirmed for Grade 9. Modules m06 and m07 therefore carry a placement warning; teach them in Grade 10 if students have not started Python/SQL."
+    hooks: [programming concepts (unverified), web technology (unverified)]
+    modules: [g9-m01-terminal-bridge, g9-m02-cli-basics, g9-m03-branches, g9-m04-merge, g9-m05-remotes, g9-m06-python-in-git, g9-m07-sql-in-git, g9-m08-pair-project]
+  10:
+    verified: true
+    source: S13 (Computer Science Class 10 textbook, 2025 AD)
+    cdc_units:
+      - "Unit 2 Database Management System (MySQL)"
+      - "Unit 4 Programming in Python"
+      - "Unit 1 Computer Network and Communication (collaboration tools)"
+    hooks: [python, MySQL, networks]
+    modules: [g10-m01-issues, g10-m02-fork-clone-branch, g10-m03-pull-requests, g10-m04-code-review, g10-m05-conflicts, g10-m06-releases, g10-m07-static-site, g10-m08-ci-intro, g10-m09-team-project]
+    also_reuse_from_grade_9: [g9-m06-python-in-git, g9-m07-sql-in-git]
+  11:
+    verified: true
+    source: S12 (Grade 11 and 12 curriculum, subject code 4281, 160 h)
+    cdc_units:
+      - "Unit 4 Web Development (suggested activity: group web app using GitHub for version control)"
+      - "Unit 5 Database Management"
+      - "Unit 6 Cyber Security and ethics (legal and ethical issues)"
+      - "Unit 7 Computational Thinking and Programming (Python)"
+      - "Unit 8 Emerging Technologies"
+    hooks: [web development, databases, cyber law/ethics, Python]
+    modules: [g11-m01-licences, g11-m02-reading-a-project, g11-m03-triage, g11-m04-first-pr, g11-m05-rebase-stash-revert, g11-m06-conventions, g11-m07-process-models, g11-m08-data-project]
+  12:
+    verified: true
+    source: S12
+    cdc_units:
+      - "Unit 3 Web Development (PHP and MySQL)"
+      - "Unit 4 Computer programming (Python review)"
+      - "Unit 5 Object-Oriented Programming"
+      - "Unit 6 Artificial Intelligence"
+      - "Unit 7 Software Development Process (Waterfall, Agile: Scrum, XP; requirements; Gantt charts; testing) - 8 theory hours"
+      - "Unit 8 Software Project - group project, 10 practical hours, groups of at most four; GitHub named among suggested tools"
+    hooks: [OOP, software process models, software project, AI]
+    modules: [g12-m01-internals, g12-m02-branching-strategies, g12-m03-ci, g12-m04-releases, g12-m05-security, g12-m06-ai-diffs, g12-m07-blame-bisect, g12-m08-capstone, g12-m09-where-next]
+    primary_fit: [g12-m02-branching-strategies, g12-m08-capstone]

@@ -1,0 +1,14 @@
+# Starting point, untested on hardware. Pin a real image tag from https://codeberg.org/forgejo/forgejo/releases
+services:
+  forgejo:
+    image: codeberg.org/forgejo/forgejo:TAG_TO_PIN
+    restart: unless-stopped
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - FORGEJO__server__ROOT_URL=http://CHANGE-ME:3000/
+      - FORGEJO__service__DISABLE_REGISTRATION=true
+    volumes:
+      - ./forgejo-data:/data
+    ports:
+      - "3000:3000"

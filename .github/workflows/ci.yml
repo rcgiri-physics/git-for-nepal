@@ -1,0 +1,30 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Front-matter and alignment
+        run: python tools/validate_frontmatter.py
+      - name: Dataset licence gate
+        run: python tools/check_datasets.py
+      - name: Link check (relative links)
+        run: python tools/check_links.py
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: "docs/en/**/*.md"
+        continue-on-error: true
+      - name: Build site
+        run: mkdocs build --strict
+      - name: Practice-repo smoke test
+        run: bash tools/smoke_practice_repos.sh

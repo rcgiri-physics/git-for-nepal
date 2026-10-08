@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Git for Nepal: a Grades 8-12 version-control curriculum"
+message: "If you use this curriculum, please cite it as below."
+type: dataset
+authors:
+  - family-names: Giri
+    given-names: Ram Chandra
+    email: rcgiri.physics@gmail.com
+license: CC-BY-4.0
+version: 0.1.0
+date-released: 2026-10-07
+repository-code: "https://github.com/rcgiri-physics/git-for-nepal"
+keywords: [Git, version control, education, Nepal, curriculum, open educational resources]

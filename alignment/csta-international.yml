@@ -1,0 +1,9 @@
+# International precedent. Wording of the standards must be re-checked at csteachers.org before use in the CDC brief.
+status: summary-only
+standards:
+  - id: 3A-AP-22
+    topic: "team roles and collaborative tools (grades 9-10)"
+    modules: [g9-m08-pair-project, g10-m03-pull-requests, g10-m09-team-project]
+  - id: 3B-AP-20
+    topic: "version control and IDEs in a group project (grades 11-12)"
+    modules: [g11-m04-first-pr, g12-m08-capstone]
