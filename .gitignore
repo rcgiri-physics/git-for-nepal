@@ -6,3 +6,4 @@ __pycache__/
 .vscode/
 *.swp
 .local-notes/
+book/dist/book.html

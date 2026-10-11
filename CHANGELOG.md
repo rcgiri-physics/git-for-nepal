@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 — 2026-10-11
+- **All 41 lessons rewritten in a "book" structure** (≈ 10k → 60k words): At a glance, Understand it, worked examples with real Git output, common mistakes, free-resource exercises, key points, new words and full teacher notes/answer keys. Grade 8 teacher guides expanded.
+- New book chapters in `docs/en/book/`: preface, Part I *Teaching version control as a foundation*, Part VII *After Grade 12* (competency checklist, practical test, 4-week bridge course), Part VIII *Version control in any project*, Part IX *Books and further reading*, free-resource library (licences checked), cheat sheet, troubleshooting guide.
+- Glossary expanded to ~130 terms; module template updated.
+- Printable PDF book: `tools/build_book.py`, `book/book.yml`, `book/print.css` → `book/dist/git-for-nepal-book.pdf`.
+- All external links checked on 2026-10-11.
+
 ## 0.1.0 — 2026-10-07
 - Repo scaffold, licences, governance, CI gates.
 - Grade 8 chapter ("Time Machine for My Work"), 7 modules.
