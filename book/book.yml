@@ -1,0 +1,113 @@
+# Order of the printed book. Paths are relative to docs/en/.
+# Each part has a title and a list of chapters; a chapter is a path, or {path, title, level}
+# (level 2 = indented under the previous chapter in the table of contents).
+title: "Teaching Version Control"
+subtitle: "A Foundation Book for Grades 8–12"
+series: "Git for Nepal"
+edition: "Edition 0.2 · October 2026"
+authors: "Ram Chandra Giri and contributors"
+licence: "Text CC BY 4.0 · Code and templates MIT"
+site_url: "https://rcgiri-physics.github.io/git-for-nepal/"
+repo_url: "https://github.com/rcgiri-physics/git-for-nepal"
+output: book/dist/git-for-nepal-book.pdf
+
+front:
+  - book/index.md
+
+parts:
+  - title: "Part I. Teaching Version Control as a Foundation"
+    chapters:
+      - book/teaching-foundation.md
+      - teachers/index.md
+      - teachers/training-outline.md
+      - teachers/setup.md
+
+  - title: "Part II. Grade 8 — Time Machine for My Work"
+    chapters:
+      - grade-08/index.md
+      - grade-08/m01-final-final/lesson.md
+      - {path: grade-08/m01-final-final/teacher-guide.md, level: 2}
+      - grade-08/m02-snapshots/lesson.md
+      - {path: grade-08/m02-snapshots/teacher-guide.md, level: 2}
+      - grade-08/m03-first-repo/lesson.md
+      - {path: grade-08/m03-first-repo/teacher-guide.md, level: 2}
+      - grade-08/m04-history-diff/lesson.md
+      - {path: grade-08/m04-history-diff/teacher-guide.md, level: 2}
+      - grade-08/m05-undo-restore/lesson.md
+      - {path: grade-08/m05-undo-restore/teacher-guide.md, level: 2}
+      - grade-08/m06-stats-commits/lesson.md
+      - {path: grade-08/m06-stats-commits/teacher-guide.md, level: 2}
+      - grade-08/m07-mini-project/lesson.md
+      - {path: grade-08/m07-mini-project/teacher-guide.md, level: 2}
+      - grade-08/cards.md
+
+  - title: "Part III. Grade 9 — Branch and Share"
+    chapters:
+      - grade-09/index.md
+      - grade-09/m01-terminal-bridge/lesson.md
+      - grade-09/m02-cli-basics/lesson.md
+      - grade-09/m03-branches/lesson.md
+      - grade-09/m04-merge/lesson.md
+      - grade-09/m05-remotes/lesson.md
+      - grade-09/m06-python-in-git/lesson.md
+      - grade-09/m07-sql-in-git/lesson.md
+      - grade-09/m08-pair-project/lesson.md
+
+  - title: "Part IV. Grade 10 — Team Workflows"
+    chapters:
+      - grade-10/index.md
+      - grade-10/m01-issues/lesson.md
+      - grade-10/m02-fork-clone-branch/lesson.md
+      - grade-10/m03-pull-requests/lesson.md
+      - grade-10/m04-code-review/lesson.md
+      - grade-10/m05-conflicts/lesson.md
+      - grade-10/m06-releases/lesson.md
+      - grade-10/m07-static-site/lesson.md
+      - grade-10/m08-ci-intro/lesson.md
+      - grade-10/m09-team-project/lesson.md
+
+  - title: "Part V. Grade 11 — Open-Source Contributor"
+    chapters:
+      - grade-11/index.md
+      - grade-11/m01-licences/lesson.md
+      - grade-11/m02-reading-a-project/lesson.md
+      - grade-11/m03-triage/lesson.md
+      - grade-11/m04-first-pr/lesson.md
+      - grade-11/m05-rebase-stash-revert/lesson.md
+      - grade-11/m06-conventions/lesson.md
+      - grade-11/m07-process-models/lesson.md
+      - grade-11/m08-data-project/lesson.md
+
+  - title: "Part VI. Grade 12 — Engineering with Git"
+    chapters:
+      - grade-12/index.md
+      - grade-12/m01-internals/lesson.md
+      - grade-12/m02-branching-strategies/lesson.md
+      - grade-12/m03-ci/lesson.md
+      - grade-12/m04-releases/lesson.md
+      - grade-12/m05-security/lesson.md
+      - grade-12/m06-ai-diffs/lesson.md
+      - grade-12/m07-blame-bisect/lesson.md
+      - grade-12/m08-capstone/lesson.md
+      - grade-12/m09-where-next/lesson.md
+
+  - title: "Part VII. After Grade 12"
+    chapters:
+      - book/after-grade-12.md
+      - pathways.md
+
+  - title: "Part VIII. Version Control in Any Project"
+    chapters:
+      - book/any-project.md
+
+  - title: "Part IX. Books, Reading and Free Resources"
+    chapters:
+      - book/books.md
+      - book/resources.md
+
+  - title: "Appendices"
+    chapters:
+      - {path: book/cheatsheet.md}
+      - {path: book/troubleshooting.md}
+      - {path: glossary.md, title: "Appendix C. Glossary"}
+      - {path: module-template.md, title: "Appendix D. Module template (for contributors)"}

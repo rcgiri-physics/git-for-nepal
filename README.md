@@ -15,6 +15,13 @@ Site: https://rcgiri-physics.github.io/git-for-nepal/
 | 11 | Open-Source Contributor | you can improve software others also use |
 | 12 | Engineering with Git | professional teams ship safely, repeatedly |
 
+## The book (PDF)
+Everything is also published as one printable book, **Teaching Version Control: A Foundation Book for Grades 8–12** — [`book/dist/git-for-nepal-book.pdf`](book/dist/git-for-nepal-book.pdf) (about 260 A4 pages). It adds a teaching guide (Part I), a consolidation and bridge course after Grade 12 (Part VII), a handbook for using version control in any project (Part VIII), a reading list, a free-resource library, a cheat sheet and a troubleshooting guide. Rebuild it with:
+```bash
+python tools/build_book.py
+```
+(needs Chrome, Chromium or Edge; the book's order is set in `book/book.yml`).
+
 ## Who is this for?
 - **Teachers** — start at [`docs/en/teachers/`](docs/en/teachers/index.md). Every module has a teacher guide with timing, misconceptions and a no-computer fallback.
 - **Students** — open your grade's chapter in [`docs/en/`](docs/en/index.md).
