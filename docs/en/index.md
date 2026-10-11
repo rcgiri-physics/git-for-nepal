@@ -2,8 +2,11 @@
 
 Open, offline-first lessons on **Git and version control** for Grades 8–12.
 
-!!! warning "v0.1 prototype"
-    Grade 8 is a full chapter. Grades 9–12 are core lessons that have **not yet been tried in a classroom**. The mapping to CDC units is a draft until the official syllabi are checked.
+!!! warning "Edition 0.2 — draft"
+    Grade 8 is the most complete chapter. Grades 9–12 are full lessons that have **not yet been tried in a classroom**. The mapping to CDC units is a draft until the official syllabi are checked.
+
+!!! tip "The whole book as a PDF"
+    All lessons, teacher guides and the new book chapters are also available as one printable book: [**Teaching Version Control: A Foundation Book for Grades 8–12** (PDF)](https://github.com/rcgiri-physics/git-for-nepal/raw/main/book/dist/git-for-nepal-book.pdf). Start with the [preface](book/index.md).
 
 | Grade | Chapter | Big idea |
 |---|---|---|
@@ -15,6 +18,13 @@ Open, offline-first lessons on **Git and version control** for Grades 8–12.
 
 ## For teachers
 Start with the [teacher hub](teachers/index.md). Each lesson lists the **delivery tiers** it supports: 0 no computer · 1 offline computers · 2 school LAN · 3 internet.
+
+## The book chapters
+- [Part I. Teaching version control as a foundation](book/teaching-foundation.md)
+- [Part VII. After Grade 12: the foundation, consolidated](book/after-grade-12.md) (with a 4-week bridge course)
+- [Part VIII. Version control in any project](book/any-project.md)
+- [Part IX. Books and further reading](book/books.md) · [Free resource library](book/resources.md)
+- [Cheat sheet](book/cheatsheet.md) · [Troubleshooting](book/troubleshooting.md)
 
 ## More
 [Glossary](glossary.md) · [Pathway map](pathways.md) · [Policy brief draft](cdc-brief.md)

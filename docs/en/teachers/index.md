@@ -20,6 +20,9 @@ You do **not** need to know Git before you start. Read the [3-hour training outl
 ## Assessment
 Each grade offers a board-style written item bank (`assessments/`) **and** a practical rubric.
 
+## Start here
+Read [Part I. Teaching version control as a foundation](../book/teaching-foundation.md): the concept spine, threshold concepts, misconception catalogue and assessment progression behind every lesson. Every lesson now has a full explanation, a worked example, a common-mistakes table, free-resource exercises and an answer key.
+
 ## Pages
 - [Training outline (3 hours)](training-outline.md)
 - [Setup guide](setup.md)
