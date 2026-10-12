@@ -59,7 +59,7 @@ Every module lists the tiers it supports: **0** no computer · **1** offline com
 
 ## Status of this edition
 
-This is **edition 0.2** (October 2026). The Grade 8 chapter is the most complete; Grades 9–12 are full drafts that **have not yet been piloted in classrooms**. Nepali translations exist as summaries; the expanded English text is the new source for full translation. Corrections and improvements are welcome — Grade 11 Module 4 shows how to contribute.
+This is **edition 0.3** (October 2026). The Grade 8 chapter is the most complete; Grades 9–12 are full drafts that **have not yet been piloted in classrooms**. Nepali translations exist as summaries; the expanded English text is the new source for full translation. Corrections and improvements are welcome — Grade 11 Module 4 shows how to contribute.
 
 ## How this book was made
 

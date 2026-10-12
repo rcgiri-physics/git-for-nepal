@@ -5,7 +5,7 @@ Five chapters, 41 modules, teacher guides, assessments, practice repos and a ~26
 
 [**Read online**](https://rcgiri-physics.github.io/git-for-schools/) · [**Download the PDF book**](book/dist/git-for-schools-book.pdf) · [**Teachers start here**](docs/en/teachers/index.md) · [**Contribute**](CONTRIBUTING.md)
 
-> **Status: edition 0.2 — not yet piloted in a classroom.** Grade 8 is a full chapter; Grades 9–12 are complete drafts. Feedback from teachers who try a module is the most useful contribution right now.
+> **Status: edition 0.3 — not yet piloted in a classroom.** Grade 8 is a full chapter; Grades 9–12 are complete drafts. Feedback from teachers who try a module is the most useful contribution right now.
 
 ## Why this exists
 Most Git tutorials assume an adult developer with a laptop and fast internet. School students learn programming but rarely learn *how people work together on code*: history, branches, reviews, releases, open source. This curriculum teaches that from the first idea ("why is `final_FINAL_v3.doc` a bad version system?") to professional workflows — and every lesson has a no-computer fallback, because many schools have few machines and unreliable internet.

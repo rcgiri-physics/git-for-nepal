@@ -2,7 +2,7 @@
 
 Free, open, offline-first lessons on **Git and version control** for Grades 8–12 — for classrooms with no computers, offline computers, a school network or the internet, and for self-learners anywhere.
 
-!!! warning "Edition 0.2 — draft"
+!!! warning "Edition 0.3 — draft"
     Grade 8 is the most complete chapter. Grades 9–12 are full lessons that have **not yet been tried in a classroom**. The example curriculum mapping (Nepal's CDC) is a draft until the official syllabi are checked.
 
 !!! tip "The whole book as a PDF"
