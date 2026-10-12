@@ -68,8 +68,8 @@ Signs of a welcoming project: a clear README and CONTRIBUTING, recent commits, i
 Orienting in this book's repository:
 
 ```console
-$ git clone https://github.com/rcgiri-physics/git-for-nepal.git
-$ cd git-for-nepal
+$ git clone https://github.com/rcgiri-physics/git-for-schools.git
+$ cd git-for-schools
 $ ls
 ATTRIBUTION.md      CONTRIBUTING.md  README.md     alignment/    offline/
 CHANGELOG.md        GOVERNANCE.md    ROADMAP.md    assessments/  practice-repos/
@@ -115,9 +115,9 @@ Order the first steps on a new project: *read README · read CONTRIBUTING · che
 | # | Exercise | Tier | Time | Hand in |
 |---|---|---|---|---|
 | 1 | Open Source Guides, [**How to Contribute**](https://opensource.guide/how-to-contribute/) — section "Orienting yourself to a new project". Compare its checklist with ours. | 3 | 20 min | 2 differences |
-| 2 | Apply the 30-minute strategy to [First Contributions](https://github.com/firstcontributions/first-contributions). Find its Nepali README. | 3 | 30 min | answers |
+| 2 | Apply the 30-minute strategy to [First Contributions](https://github.com/firstcontributions/first-contributions). Find the README in your language. | 3 | 30 min | answers |
 | 3 | *Pro Git* [§7.5 **Searching**](https://git-scm.com/book/en/v2/Git-Tools-Searching): try `git grep -n` and `git log -S "word"`. | 1 / 3 | 15 min | commands + output |
-| 4 | Pick a Nepali open project (e.g. [OKN localboundaries](https://github.com/openknowledgenp/localboundaries)). Answer worksheet questions 1, 3 and 8 for it. | 3 | 20 min | answers |
+| 4 | Pick an open project from your country (e.g. [OKN localboundaries](https://github.com/openknowledgenp/localboundaries)). Answer worksheet questions 1, 3 and 8 for it. | 3 | 20 min | answers |
 
 ## Exit ticket (5 min)
 1. Which file tells you how to contribute?
@@ -139,5 +139,5 @@ Draw a map of this repository's folders (like Grade 9 Module 1's tree) with one 
 ## Teacher notes
 - **Timing:** hook 5 · understand 10 · lab 30 · Parsons + exit 5. Use the notice-board hunt if computers are limited.
 - **Students under 18 should only contribute to projects the teacher has vetted** (this repo and consented partners).
-- **Worksheet answers (this repo):** 1 open offline-first Git curriculum for Nepali schools, Grades 8–12; 2 `pip install -r requirements.txt` then `mkdocs serve`; 3 CC BY 4.0 / MIT; 4 `good-first-issue` (and `student-friendly`); 5 `validate_frontmatter.py` and `mkdocs build --strict`; 6 two approvals including one teacher; 7 `needs-nepali-review`; 8 read from `git log -1`.
+- **Worksheet answers (this repo):** 1 open offline-first Git curriculum for schools, Grades 8–12; 2 `pip install -r requirements.txt` then `mkdocs serve`; 3 CC BY 4.0 / MIT; 4 `good-first-issue` (and `student-friendly`); 5 `validate_frontmatter.py` and `mkdocs build --strict`; 6 two approvals including one teacher; 7 `needs-nepali-review`; 8 read from `git log -1`.
 - **Answer key:** Exit 1: `CONTRIBUTING.md`. 2: issues labelled `good-first-issue` / `student-friendly`. 3: False — read the rules first.

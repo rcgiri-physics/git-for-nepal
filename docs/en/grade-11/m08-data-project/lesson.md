@@ -21,7 +21,7 @@ license: CC-BY-4.0
     **By the end you can:** set up a data repository that anyone can trust — raw data untouched, cleaning done by a script, every step in history, and source and licence documented.
 
 ## Hook (5 min)
-Nepal's local-level boundaries were restructured in 2017. If your analysis of ward or municipality data uses an old copy, your answers are wrong — and nobody can tell which copy you used. **Version the data like code.**
+Borders change: districts merge, wards are renumbered, cities grow. (In Nepal, for example, local-level boundaries were restructured in 2017.) If your analysis of ward or municipality data uses an old copy, your answers are wrong — and nobody can tell which copy you used. **Version the data like code.**
 
 ## Understand it
 
@@ -50,7 +50,7 @@ name: Synthetic school table (teaching data)
 source_url: written for this project
 licence: CC-BY-4.0
 redistribution_ok: yes
-attribution_text: Git for Nepal contributors, CC BY 4.0
+attribution_text: Git for Schools contributors, CC BY 4.0
 personal_data: none
 changes_made: raw/ is never edited; clean/ is produced by clean.py (strip spaces, Title Case, drop rows without a student count)
 ```
@@ -87,7 +87,7 @@ $ git commit -m "Clean school names and drop row without student count" \
 Give pairs a printed "raw" table with problems (extra spaces, mixed capitals, a missing value, a duplicate row) and two different "clean" versions made by two invented students — one documented, one not. Which clean version would you trust for a report to the municipality? Why? What would you need to know?
 
 ## PRIMM lab (3 periods)
-Practice repo: `practice-repos/g11-data-thread` (synthetic starter). **Real data:** choose a dataset from Open Knowledge Nepal `localboundaries` (stated CC BY 4.0) or Open Data Nepal — **verify each licence yourself and record it**; do not copy data whose licence is unclear or missing (e.g. a repo with no stated licence).
+Practice repo: `practice-repos/g11-data-thread` (synthetic starter). **Real data:** choose an openly licensed dataset from your country's open-data portal (examples from Nepal: Open Knowledge Nepal `localboundaries` (stated CC BY 4.0) or Open Data Nepal) — **verify each licence yourself and record it**; do not copy data whose licence is unclear or missing (e.g. a repo with no stated licence).
 
 1. Fetch the data (Tier 3) or use the teacher's USB copy (Tier 1). Commit it in `raw/` with a message naming the source and date.
 2. `raw/` untouched; make `clean/` with a script `clean.py`. **Predict** how many rows the cleaning will change.

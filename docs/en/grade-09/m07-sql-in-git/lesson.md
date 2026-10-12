@@ -119,7 +119,7 @@ Order to change a table safely: *edit schema.sql · rebuild the database · run 
 | 1 | Software Carpentry [**Exploring History**](https://swcarpentry.github.io/git-novice/05-history.html) — use `git diff HEAD~1 schema.sql` and `git restore --source=HEAD~1 schema.sql` on your schema. | 1 / 3 | 15 min | commands used |
 | 2 | **Rebuild last week:** use `git log` to find the first commit, then `git switch --detach <id>`, rebuild the database and run the queries. Compare the answers with today's. Return with `git switch main`. | 1 | 20 min | old vs new results |
 | 3 | Make a dump: `sqlite3 ward.db .dump > dump.sql`. Compare `dump.sql` with `schema.sql` using `git diff --no-index schema.sql dump.sql`. | 1 | 15 min | 2 differences |
-| 4 | Open data: look at the [Open Data Nepal](https://opendatanepal.com/) catalogue and find one small dataset whose licence allows sharing. Write a `DATA.md` for it (source, licence, date) — do not download yet. | 3 | 20 min | `DATA.md` draft |
+| 4 | Open data: look at your country's open-data portal (for example [data.gov](https://data.gov/), [data.gov.uk](https://www.data.gov.uk/), [Open Data Nepal](https://opendatanepal.com/)) and find one small dataset whose licence allows sharing. Write a `DATA.md` for it (source, licence, date) — do not download yet. | 3 | 20 min | `DATA.md` draft |
 
 ## Exit ticket (5 min)
 1. Why do we put `.sql` files in Git and not the database file?

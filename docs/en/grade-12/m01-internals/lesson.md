@@ -115,7 +115,7 @@ $ git cat-file -p HEAD^{tree}
 100644 blob 45b983be36b73c0788dc9cbcb76cbb80fc7bb057    b.txt     <- same blob
 ```
 
-The number `1791692100` is the time in seconds since 1 January 1970 (Unix time); `+0545` is Nepal's time zone.
+The number `1791692100` is the time in seconds since 1 January 1970 (Unix time); `+0545` is the author's time zone (Nepal, UTC+5:45); yours will differ.
 
 ## Unplugged: build the object graph (20 min)
 Give pairs a printed version of the *See it* output. Using three colours of cards (blob, tree, commit) and arrows, build the object graph. Then add a third commit on paper that changes `a.txt` to "hello": which cards are new? Which are reused? (New blob, new tree, new commit; `b.txt`'s blob is reused.) Finally, place sticky notes for `main` and `HEAD`.

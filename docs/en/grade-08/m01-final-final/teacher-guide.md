@@ -3,7 +3,7 @@
 **Goal of the period:** students *feel* the pain of renaming copies before they ever see Git. Do not show Git commands today.
 
 **Timing (40 min):** hook 5 · folder game 15 · predict 10 · key idea 5 · exit 5. Read "Understand it" aloud in pieces during the discussion, or set it as reading for home.
-**Materials:** one printed paragraph per group (6 lines of any Nepali or English text, e.g. a short school notice), 6 blank A4 sheets per group, pens, a clock or phone timer. No computer needed.
+**Materials:** one printed paragraph per group (6 lines of any text in the students' language, e.g. a short school notice), 6 blank A4 sheets per group, pens, a clock or phone timer. No computer needed.
 
 ## Before class (10 min)
 - Write the folder listing from the hook on the board (or a chart paper you can reuse every year).
@@ -23,7 +23,7 @@
 | Students edit the original sheet | "Never change an old sheet — that is like overwriting a file." |
 | "Just use Ctrl+Z." | Undo disappears when you close the file or the power goes; history must survive for months. |
 | "Google Drive keeps versions." | Some tools keep copies, but they do not record *why*, and cannot combine two people's edits line by line. Git can (Grade 9–10). |
-| "This is for programmers only." | Mention writers, scientists, lawyers, governments (Nepal's own open-data projects keep their files in Git). |
+| "This is for programmers only." | Mention writers, scientists, lawyers, governments (many governments and open-data projects keep their files in Git). |
 
 ## Fallbacks
 Same in all tiers: this lesson is fully unplugged. Large class (50+): groups of 6, fewer rounds (3).

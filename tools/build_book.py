@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the printable book (PDF) from the Markdown lessons.
 
-    python tools/build_book.py            # writes book/dist/git-for-nepal-book.pdf
+    python tools/build_book.py            # writes book/dist/git-for-schools-book.pdf
     python tools/build_book.py --html     # only writes book/dist/book.html
 
 Steps: read book/book.yml -> render each Markdown file with the same extensions as
@@ -177,7 +177,7 @@ def build_html(data, entries, pages=None):
   <h1>{html.escape(data['title'])}</h1>
   <div class="subtitle">{html.escape(data['subtitle'])}</div>
   <div class="graph">{html.escape(graph)}</div>
-  <div class="np">नेपालका लागि Git — संस्करण नियन्त्रण, कक्षा ८–१२</div>
+  <div class="np">विद्यालयका लागि Git — संस्करण नियन्त्रण, कक्षा ८–१२</div>
   <div class="bottom">{html.escape(data['authors'])}<br>{html.escape(data['edition'])}<br>{html.escape(data['licence'])}</div>
 </section>
 <section class="verso">
@@ -185,7 +185,7 @@ def build_html(data, entries, pages=None):
   <p>{html.escape(data['edition'])}. Grades 9–12 are unpiloted drafts.</p>
   <p>© {html.escape(data['authors'])}. Text licensed under Creative Commons Attribution 4.0 International (CC BY 4.0); code and templates under the MIT License.
   You may copy, print, adapt and share this book, including commercially, with credit:</p>
-  <p>“Git for Nepal” by Ram Chandra Giri and contributors, licensed under CC BY 4.0. Source: {html.escape(data['repo_url'])}</p>
+  <p>“Git for Schools” by Ram Chandra Giri and contributors, licensed under CC BY 4.0. Source: {html.escape(data['repo_url'])}</p>
   <p><a href="#toc">Contents</a> · Website: {html.escape(site_url)}. Third-party resources keep their own licences and are linked, not copied, unless their licence allows it.</p>
 </section>
 <section class="toc" id="toc"><h1>Contents</h1><ol>{toc_html}</ol></section>"""
@@ -223,7 +223,7 @@ def finish(pdf_in, pdf_out, data, outline, pages):
     writer = PdfWriter()
     writer.append(reader)
     writer.add_metadata({"/Title": f"{data['title']}: {data['subtitle']}", "/Author": data["authors"],
-                         "/Subject": "Version control (Git) curriculum, Grades 8-12", "/Keywords": "Git, version control, Nepal, curriculum"})
+                         "/Subject": "Version control (Git) curriculum, Grades 8-12", "/Keywords": "Git, version control, schools, curriculum, education"})
     if "toc" in pages:
         writer.add_outline_item("Contents", pages["toc"])
     parent = None

@@ -1,6 +1,6 @@
 # Teaching Version Control: A Foundation Book for Grades 8–12
 
-*Git for Nepal — an open, offline-first book for students, teachers and anyone starting a project.*
+*Git for Schools — an open, offline-first book for students, teachers and anyone starting a project.*
 
 ## Preface
 
@@ -8,7 +8,7 @@ Every piece of work has a history. A student's essay grows over a week; a team's
 
 Most people learn version control late, in a hurry, from scattered tutorials. This book does the opposite. It builds the idea **slowly and deliberately over five school years**, starting with paper cards in Grade 8 and finishing with a professional team project in Grade 12, so that it becomes a **foundation**: a correct mental model, automatic good habits, and the judgement to use them in any project.
 
-It was written for Nepal — every lesson works in a classroom **with no computer**, with **offline computers**, on a **school network**, or with the **internet** — but nothing in it is specific to one country.
+It was first written for schools in Nepal, and every lesson works in a classroom **with no computer**, with **offline computers**, on a **school network**, or with the **internet** — but nothing in it is specific to one country: it is meant for any school, anywhere.
 
 ## Who this book is for
 
@@ -61,10 +61,14 @@ Every module lists the tiers it supports: **0** no computer · **1** offline com
 
 This is **edition 0.2** (October 2026). The Grade 8 chapter is the most complete; Grades 9–12 are full drafts that **have not yet been piloted in classrooms**. Nepali translations exist as summaries; the expanded English text is the new source for full translation. Corrections and improvements are welcome — Grade 11 Module 4 shows how to contribute.
 
+## How this book was made
+
+This material was drafted with the assistance of AI, then curated, verified and adapted by the author. An originality check against major Git references (Pro Git, the official Git documentation, GitHub Docs) found no copied text; see `research/originality-check.md` in the repository.
+
 ## Licence and credit
 
 Text: **CC BY 4.0**; code and templates: **MIT**. You may print, adapt and share this book — including commercially — if you credit it:
 
-> "Git for Nepal" by Ram Chandra Giri and contributors, licensed under CC BY 4.0. Source: https://github.com/rcgiri-physics/git-for-nepal
+> "Git for Schools" by Ram Chandra Giri and contributors, licensed under CC BY 4.0. Source: https://github.com/rcgiri-physics/git-for-schools
 
 External resources referred to in this book keep their own licences; several are linked rather than copied for that reason (see the resource library).

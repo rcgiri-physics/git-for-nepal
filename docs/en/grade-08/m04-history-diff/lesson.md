@@ -32,7 +32,7 @@ The **history** (also called the **log**) is the list of every commit, newest fi
 $ git log
 commit 711a420055201db8271b5be81c7b6dd2243f5084      <- commit id
 Author: Teacher <teacher@example.invalid>             <- who
-Date:   Mon Oct 5 10:00:00 2026 +0545                 <- when (+0545 = Nepal time)
+Date:   Mon Oct 5 10:00:00 2026 +0545                 <- when (+0545 = the time zone, here Nepal)
 
     Add Class Eight momo paragraph (typo left in on purpose)   <- why / what
 ```

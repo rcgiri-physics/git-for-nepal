@@ -1,9 +1,9 @@
-/* Print stylesheet for the Git for Nepal book (A4, black-and-white friendly, offline fonts). */
+/* Print stylesheet for the Git for Schools book (A4, black-and-white friendly, offline fonts). */
 @page {
   size: A4;
   margin: 18mm 16mm 18mm 16mm;
   @bottom-center { content: counter(page); font: 9pt "Segoe UI", "Noto Sans", sans-serif; color: #555; }
-  @top-right { content: "Teaching Version Control · Git for Nepal"; font: 8pt "Segoe UI", "Noto Sans", sans-serif; color: #888; }
+  @top-right { content: "Teaching Version Control · Git for Schools"; font: 8pt "Segoe UI", "Noto Sans", sans-serif; color: #888; }
 }
 @page cover { margin: 0; @bottom-center { content: none; } @top-right { content: none; } }
 @page divider { @top-right { content: none; } @bottom-center { content: none; } }

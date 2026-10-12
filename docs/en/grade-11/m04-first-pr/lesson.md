@@ -21,7 +21,7 @@ license: CC-BY-4.0
     **By the end you can:** contribute a change to a real project from fork to merge, following its rules, and handle review gracefully.
 
 ## Hook (5 min)
-You will improve the very lessons you are learning from. When your PR is merged, your work becomes part of a book that other students in Nepal will read — with your name in the history.
+You will improve the very lessons you are learning from. When your PR is merged, your work becomes part of a book that other students around the world will read — with your name in the history.
 
 ## Understand it
 
@@ -64,9 +64,9 @@ git push
 
 ## See it
 ```console
-$ git clone https://github.com/<you>/git-for-nepal.git
-$ cd git-for-nepal
-$ git remote add upstream https://github.com/rcgiri-physics/git-for-nepal.git
+$ git clone https://github.com/<you>/git-for-schools.git
+$ cd git-for-schools
+$ git remote add upstream https://github.com/rcgiri-physics/git-for-schools.git
 $ git switch -c fix/typo-g9-m03
   (edit docs/en/grade-09/m03-branches/lesson.md)
 $ python tools/validate_frontmatter.py
@@ -75,7 +75,7 @@ $ python tools/check_links.py
 links checked in ... files, 0 broken
 $ git commit -am "Fix spelling of 'separately' in Grade 9 branches lesson"
 $ git push -u origin fix/typo-g9-m03
-  (open the PR: base rcgiri-physics/git-for-nepal:main  <-  compare <you>:fix/typo-g9-m03)
+  (open the PR: base rcgiri-physics/git-for-schools:main  <-  compare <you>:fix/typo-g9-m03)
 ```
 
 ## Unplugged rehearsal (10 min)
@@ -104,7 +104,7 @@ Order: *fork · clone · branch · change · check · commit · push · PR · re
 ## Practise more with free resources
 | # | Exercise | Tier | Time | Hand in |
 |---|---|---|---|---|
-| 1 | Do the [First Contributions](https://firstcontributions.github.io/) tutorial (13+, account) — the safe practice PR. Its Nepali README is in the repo's translations folder. | 3 | 45 min | PR link |
+| 1 | Do the [First Contributions](https://firstcontributions.github.io/) tutorial (13+, account) — the safe practice PR. READMEs in many languages are in the repo's translations folder. | 3 | 45 min | PR link |
 | 2 | *Pro Git* [§6.2 **Contributing to a Project**](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project): read "Advanced Pull Requests" — keeping a PR up to date. | 3 | 20 min | summary |
 | 3 | Open Source Guides, [**How to Contribute**](https://opensource.guide/how-to-contribute/) — "What happens after you submit a contribution". | 3 | 15 min | 3 possible outcomes |
 | 4 | Review a classmate's PR to this repo using the Grade 10 checklist. | 2 / 3 | 20 min | review comments |
@@ -124,7 +124,7 @@ Order: *fork · clone · branch · change · check · commit · push · PR · re
 **contribution**, **base / compare branch**, **contributor**, **portfolio** — see the [glossary](../../glossary.md).
 
 ## Extension quest
-Make a second contribution that is a little bigger: add an exercise answer to a teacher guide, or improve a Nepali summary (`needs-nepali-review`).
+Make a second contribution that is a little bigger: add an exercise answer to a teacher guide, or improve a translation.
 
 ## Teacher notes
 - **Timing:** P1: hook 5, understand 15, rehearsal 10, lab 1–2 (10). P2: lab 3–6 (35), Parsons + exit 5. Reviews arrive between lessons — check them at the start of Module 5.
