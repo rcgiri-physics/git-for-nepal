@@ -43,7 +43,7 @@ Even outside software, the habits matter: **small steps with clear explanations*
 ### Open-source programmes
 Mentoring programmes such as **Google Summer of Code** and **Outreachy** pay contributors to work with open-source projects. Both require applicants to be **18 or older** (checked October 2026; GSoC also requires student or open-source-beginner status), so many Grade 12 students become eligible only after school. **Rules change every year** — check the official pages yourself. Until then: contribute to welcoming projects, join local communities, and keep a portfolio.
 
-### Communities in Nepal
+### Local communities (example: Nepal)
 Local open-source and open-data communities (for example FOSS Nepal, NOSK, Open Knowledge Nepal, Code for Nepal) run events and projects. *This book has not yet contacted them; check their current activities yourself.*
 
 ### Keep learning
@@ -54,7 +54,7 @@ A completed pathway map (example):
 
 | Stage | Study | Work | Open source | Next concrete step |
 |---|---|---|---|---|
-| Now (Grade 12) | finish capstone v1.0.0 | — | 2 merged PRs to this book | add Nepali glossary words (issue #41) by Poush |
+| Now (Grade 12) | finish capstone v1.0.0 | — | 2 merged PRs to this book | add glossary words in your language (issue #41) by Poush |
 | Next year | BSc CSIT entrance prep; Git for all assignments | — | translate one First Contributions page | read Pro Git ch. 7 |
 | After school | team projects at university | internship using code review | apply to a mentoring programme once eligible (18+) | keep CONTRIBUTIONS.md updated |
 

@@ -114,6 +114,6 @@ Find an old, unanswered issue in this repo. Can you add useful information to it
 ## Teacher notes
 - **Timing:** hook 5 · understand 10 · rating 10 · lab 15 · Parsons + exit 5.
 - **Avoid spam:** no one opens PRs for points or events. Hacktoberfest-style events: set rules (quality over quantity, only listed repos).
-- **Prepare 10 issues** (mix of sizes): typos in a lesson, a missing glossary word, a broken relative link, a better Nepali-context example, an exercise answer missing from a teacher guide (S); a new Parsons card set (M); a new practice repo (L — to show what *not* to pick first).
+- **Prepare 10 issues** (mix of sizes): typos in a lesson, a missing glossary word, a broken relative link, a better local-context example, an exercise answer missing from a teacher guide (S); a new Parsons card set (M); a new practice repo (L — to show what *not* to pick first).
 - Act as a kind, prompt maintainer during the lab: reply within the lesson.
 - **Answer key:** Exit 1: small, clear, says where, labelled, unclaimed, project responsive. 2: avoids duplicate work and gets feedback on the plan. 3: False — finishing a small useful one is better.

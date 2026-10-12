@@ -21,7 +21,7 @@ license: CC-BY-4.0
     **By the end you can:** explain the three words, pick the right one for a situation, and keep a fork up to date with `upstream`.
 
 ## Hook (5 min)
-You want to improve a project you do **not** own — say, a Nepali dictionary app made by strangers. You cannot push to their repository. What are your options?
+You want to improve a project you do **not** own — say, a dictionary app for your language made by strangers. You cannot push to their repository. What are your options?
 
 ## Understand it
 

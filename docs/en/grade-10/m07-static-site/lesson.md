@@ -88,7 +88,7 @@ Practice repo: `practice-repos/g10-school-website` (copy it into your team repo 
     - **Tier 2:** on the server PC, `python -m http.server 8000` in the site folder; classmates open `http://<IP>:8000`.
     - **Tier 1:** open the files directly in the browser.
 5. **Investigate:** make a small change, merge it, and time how long until the live site updates.
-6. **Make:** add one page that shows a small open-data table (for example 5 rows from a Census 2021 or Open Data Nepal table you are allowed to use) and **credit the source** at the bottom.
+6. **Make:** add one page that shows a small open-data table (for example 5 rows from a census or open-data table from your country you are allowed to use) and **credit the source** at the bottom.
 
 ## Parsons practice (5 min)
 Order: *edit HTML · open in browser · commit · push · publish*.

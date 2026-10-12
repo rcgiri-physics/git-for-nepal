@@ -12,7 +12,7 @@ Status key: ✅ decided or verified · 🟡 provisional · ❓ open
 | D6 | Django | Optional enrichment, G10 | 🟡 | Not confirmed in CDC syllabi |
 | D7 | Hosting | Git-first; Forgejo LAN for offline | 🟡 | |
 | D8 | Site generator | MkDocs Material | ✅ | builds locally (mkdocs 1.6.1) |
-| D9 | Repo name, maintainer credit | `git-for-nepal`; maintainer Ram Chandra Giri | ✅ | credit line in `ATTRIBUTION.md` |
+| D9 | Repo name, maintainer credit | `git-for-schools`; maintainer Ram Chandra Giri | ✅ | credit line in `ATTRIBUTION.md` |
 | D10 | Revision status (Phase 0 step 5) | Task force formed Apr 2026, six-month window, CDC collects suggestions via its website in a set format | ✅ | S17; no deadline published. Window is open now. |
 
 ## Licence audit (Phase 0, step 3)

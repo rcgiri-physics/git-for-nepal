@@ -13,6 +13,6 @@ Fill in your own copy in Grade 12 Module 9.
 - **Research:** reproducible analysis — code, data and papers versioned together.
 - **Writing and documentation:** Markdown, translation, documentation-as-code.
 - **Data and machine learning:** versioned datasets and experiments.
-- **Government and civic tech:** open data and open-source tools (e.g. community projects such as Code for Nepal, Open Knowledge Nepal, FOSS Nepal — not yet contacted).
+- **Government and civic tech:** open data and open-source tools (e.g. civic-tech groups in your country; in Nepal: Code for Nepal, Open Knowledge Nepal, FOSS Nepal — not yet contacted).
 
 *We do not promise admission, jobs or programme acceptance. Check current eligibility and dates yourself.*

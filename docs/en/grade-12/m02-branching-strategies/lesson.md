@@ -149,7 +149,7 @@ Match strategy to its signature: daily merges → trunk-based; release/hotfix br
 **trunk-based development**, **feature flag**, **GitHub flow**, **Gitflow**, **release branch**, **hotfix**, **branch protection**, **CODEOWNERS**, **cherry-pick** — see the [glossary](../../glossary.md).
 
 ## Extension quest
-Design a strategy for a Nepali government open-data portal where data files are updated by 10 district offices. Which strategy, and what protection rules?
+Design a strategy for a national open-data portal where data files are updated by 10 district offices. Which strategy, and what protection rules?
 
 ## Teacher notes
 - **Timing:** P1: hook 5, understand 20, posters 15. P2: lab 35, Parsons + exit 5.

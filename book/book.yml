@@ -3,13 +3,13 @@
 # (level 2 = indented under the previous chapter in the table of contents).
 title: "Teaching Version Control"
 subtitle: "A Foundation Book for Grades 8–12"
-series: "Git for Nepal"
+series: "Git for Schools"
 edition: "Edition 0.2 · October 2026"
 authors: "Ram Chandra Giri and contributors"
 licence: "Text CC BY 4.0 · Code and templates MIT"
-site_url: "https://rcgiri-physics.github.io/git-for-nepal/"
-repo_url: "https://github.com/rcgiri-physics/git-for-nepal"
-output: book/dist/git-for-nepal-book.pdf
+site_url: "https://rcgiri-physics.github.io/git-for-schools/"
+repo_url: "https://github.com/rcgiri-physics/git-for-schools"
+output: book/dist/git-for-schools-book.pdf
 
 front:
   - book/index.md

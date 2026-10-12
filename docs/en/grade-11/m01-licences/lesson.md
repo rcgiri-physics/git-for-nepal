@@ -81,7 +81,7 @@ Put the licence text in a file called **`LICENSE`** at the top of the repo. Host
 $ head -3 LICENSE
 MIT License
 
-Copyright (c) 2026 The git-for-nepal contributors
+Copyright (c) 2026 The git-for-schools contributors
 $ grep -m1 "Attribution 4.0" LICENSE-CONTENT.md
 **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 $ grep license: docs/en/grade-11/m01-licences/lesson.md
@@ -135,7 +135,7 @@ Match each licence to what it requires (credit / share alike / no commercial use
 **copyright**, **licence**, **open licence**, **attribution (TASL)**, **share alike**, **non-commercial**, **SPDX identifier**, **public domain** — see the [glossary](../../glossary.md).
 
 ## Extension quest
-Look up a Nepali government open-data portal or OKN's `localboundaries` repository. What licence does it use? What would you need to write to use it in a school project?
+Look up your government's open-data portal (or, as an example, OKN's `localboundaries` repository in Nepal). What licence does it use? What would you need to write to use it in a school project?
 
 ## Teacher notes
 - **Timing:** P1: hook 5, understand 20, card sort 15. P2: lab 30, Parsons 5, exit 5.

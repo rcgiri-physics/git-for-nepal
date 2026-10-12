@@ -1,8 +1,8 @@
-site_name: Git for Nepal
-site_url: https://rcgiri-physics.github.io/git-for-nepal/
-repo_url: https://github.com/rcgiri-physics/git-for-nepal
+site_name: Git for Schools
+site_url: https://rcgiri-physics.github.io/git-for-schools/
+repo_url: https://github.com/rcgiri-physics/git-for-schools
 copyright: Content CC BY 4.0 — Ram Chandra Giri and contributors
-site_description: Open, offline-first Git curriculum for Nepali schools, Grades 8-12
+site_description: Free, open, offline-first Git and version-control curriculum for schools, Grades 8-12
 docs_dir: docs
 strict: false
 theme:

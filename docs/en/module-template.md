@@ -19,7 +19,7 @@ license: CC-BY-4.0
 | # | Section | Purpose | Typical time |
 |---|---|---|---|
 | — | **At a glance** box | time, materials, tiers, prerequisites, outcomes | — |
-| 1 | **Hook** | a real problem in a Nepali context | 5 min |
+| 1 | **Hook** | a real problem from the students' own context | 5 min |
 | 2 | **Understand it** | the full explanation a student can read alone: analogy → precise idea → text diagram → what Git really does | read 10–15 min (before or after class) |
 | 3 | **See it** | a worked example: exact commands *and expected output*, annotated | 5–10 min demo |
 | 4 | **Unplugged / concept activity** | paper or visual model first | 15 min |

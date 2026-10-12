@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — 2026-10-12
+- **Renamed to "Git for Schools"** and rewritten for a global audience; Nepal remains the origin story, an optional translation and an example curriculum mapping. Repo/site URLs now use `git-for-schools`.
+- Country-specific examples in lessons generalized ("your country's open-data portal", "the students' home language"), with Nepal kept as a worked example.
+- New README for first-time visitors; AI-assistance disclosure added to the README and the book preface.
+- Originality check (`research/originality-check.md`): no copied text found against Pro Git, Git docs or GitHub Docs.
+- PDF renamed to `book/dist/git-for-schools-book.pdf` and rebuilt.
+
 ## 0.2.0 — 2026-10-11
 - **All 41 lessons rewritten in a "book" structure** (≈ 10k → 60k words): At a glance, Understand it, worked examples with real Git output, common mistakes, free-resource exercises, key points, new words and full teacher notes/answer keys. Grade 8 teacher guides expanded.
 - New book chapters in `docs/en/book/`: preface, Part I *Teaching version control as a foundation*, Part VII *After Grade 12* (competency checklist, practical test, 4-week bridge course), Part VIII *Version control in any project*, Part IX *Books and further reading*, free-resource library (licences checked), cheat sheet, troubleshooting guide.

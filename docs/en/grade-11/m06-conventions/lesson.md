@@ -32,9 +32,9 @@ A **convention** is a shared habit. When everyone writes messages and names bran
 ```
 Fix wrong date format in report header (#14)          <- summary: imperative, ≤ 72 chars
                                                       <- blank line
-The header showed dates as MM/DD/YYYY, but Nepali     <- body: WHY, and what was wrong;
-school reports use YYYY-MM-DD (and BS dates).            wrap at ~72 characters
-Switch to ISO format and add a test for 2083-07-01.
+The header showed dates as MM/DD/YYYY, but local      <- body: WHY, and what was wrong;
+school reports use YYYY-MM-DD.                            wrap at ~72 characters
+Switch to ISO format and add a test for 2026-10-01.
 
 Closes #14                                            <- references (issues, co-authors)
 ```

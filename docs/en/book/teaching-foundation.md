@@ -111,7 +111,7 @@ These rules decided the order of every lesson.
 4. **Local before remote.** One computer (G8) → two computers (G9) → a server with a team (G10) → strangers' projects (G11) → automation (G12).
 5. **Solo → pair → team → community.** Social complexity grows with technical complexity, not before it.
 6. **Delay accidental complexity.** SSH keys, credential helpers and configuration details are postponed; pseudonymous HTTP accounts and bundles keep early lessons about ideas.
-7. **Real, Nepali, open artefacts.** A class magazine, a ward-facts script, a school website, a contribution, a capstone — each grade ends with something real (the "Nepal data thread").
+7. **Real, local, open artefacts.** A class magazine, a ward-facts script, a school website, a contribution, a capstone — each grade ends with something real (the "data thread", using open data from your own country).
 8. **Spiral back.** Every grade revisits earlier strands at a deeper level (e.g. undo: restore → revert → reset/reflog → incident response).
 
 ## 7. Lesson design in practice
@@ -160,7 +160,7 @@ The repository **is** the evidence. Before marking a product, read `git log` (or
 ### Fitting a marks-based exam system
 Every grade has a board-style item bank in `assessments/` (definitions, ordering, "what will this command do?", misconception true/false, short explanations). Practical rubrics give marks too, so internal assessment can combine both.
 
-## 9. Running labs in Nepali schools
+## 9. Running labs in low-resource schools
 
 ### Delivery tiers
 | Tier | Setting | What to do |
@@ -187,7 +187,7 @@ Use **Git Bash** for the same commands as Linux; ignore `LF will be replaced by 
 
 ## 10. Differentiation and inclusion
 
-- **Language:** explain in Nepali (or the students' home language); keep commands, code and branch names in English. The [glossary](../glossary.md) gives Nepali terms.
+- **Language:** explain in the students' home language; keep commands, code and branch names in English. The [glossary](../glossary.md) gives Nepali terms as an example; add a column for your language.
 - **Colour:** diffs use colour *and* `+`/`-` signs; teach both. Printed materials are black-and-white friendly.
 - **Support:** sentence starters for messages, printed step cards with screenshots, pre-filled tables, buddy pairing.
 - **Stretch:** every lesson has an extension quest; GitHub Skills and Learn Git Branching levels for fast finishers.

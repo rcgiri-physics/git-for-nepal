@@ -127,7 +127,7 @@ Add an **issue template** to your repo (`.github/ISSUE_TEMPLATE/bug.md` on GitHu
 
 ## Teacher notes
 - **Timing:** hook 5 · understand 10 · kanban wall 15 (or lab) · lab 20 · exit 5. With a short period, do the wall *or* the online lab.
-- **Tier 0/1** teams use a paper kanban wall for the whole chapter. Keep titles in English or Nepali but code names in English.
+- **Tier 0/1** teams use a paper kanban wall for the whole chapter. Keep titles in English or the students' language but code names in English.
 - **Rubric for issues:** clear verb-first title, why, done-check, one task, one assignee.
 - **Paper sort set:** include `help`, `Make site better`, `Add festival dates for 2083 BS to festival.html`, `ERROR!!!`, `Fix the about page and gallery and menu`, `Replace "Libary" with "Library" on index.html`, etc.
 - **Answer key:** Exit 1: title, what/why, done-when. 2: one person who owns the task. 3: False — features, docs, questions and ideas too.

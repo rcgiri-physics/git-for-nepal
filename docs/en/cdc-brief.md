@@ -31,7 +31,7 @@ A prototype exists (Grade 8 full, Grades 9–12 core lessons). **No classroom pi
 3. Consider including version control and collaboration as a project component in the revised computer curriculum.
 
 ## 7. Contact and links
-Repository: https://github.com/rcgiri-physics/git-for-nepal · Site: https://rcgiri-physics.github.io/git-for-nepal/ · Maintainer: Ram Chandra Giri, rcgiri.physics@gmail.com · Licence: CC BY 4.0 / MIT.
+Repository: https://github.com/rcgiri-physics/git-for-schools · Site: https://rcgiri-physics.github.io/git-for-schools/ · Maintainer: Ram Chandra Giri, rcgiri.physics@gmail.com · Licence: CC BY 4.0 / MIT.
 
 ---
 *Nepali version: `docs/ne/cdc-brief.md` (draft, needs native review).*
